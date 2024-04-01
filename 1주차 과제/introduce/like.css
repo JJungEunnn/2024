@@ -61,7 +61,7 @@
     margin-top: 3rem;
     font-size: 1.5rem;
     font-weight: 200;
-    line-height: 0.15em; /* 줄 간격을 1.5배로 설정 */
+    line-height: 0.15em; 
   }
   .emphasize {
     font-family: "Black Han Sans", sans-serif;
@@ -70,10 +70,10 @@
       1px 1px 0 #96bbe4;
   }
   img {
-    width: 18rem;
-    /* 이미지 모서리 둥근 정도 추가 */
+    width: 12rem;
+    border-radius: 20px;
     margin-bottom: 120px;
-    /* 이미지 그림자 추가 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   footer {
