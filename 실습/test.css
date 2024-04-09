@@ -18,13 +18,13 @@
 .logo {
     height: 100px;
     width: 250px;
-    background-color: #EEEEE9;
+    background-color: #EAE9EE;
 }
 
 #nav{
     width: 1000px;
     height: 100px;
-    background-color: #D6CCC2;
+    background-color: #C2C3D6;
 }
 
 #main{
@@ -34,17 +34,9 @@
 
 .content01{
     height: 440px;
-    background-color: #F5ECE1;
+    background-color: #E1E1F5;
 }
-.content01::after {
-    content: ''; 
-    position: absolute; 
-    top: 30%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    width: 500px; 
-    height: 500px; 
-}
+
 .content02{
     height: 440px;
     /* background-color: #000; */
@@ -54,19 +46,19 @@
 .content02_1{
     width: 50%;
     height: 440px;
-    background-color: #E2D6CA;
+    background-color: #CACBE4;
 
 }
 
 .content02_2{
     width: 50%;
     height: 440px;
-    background-color: #D5BEB1;
+    background-color: #B1B2D5;
 }
 
 #footer{
     height: 100px;
-    background-color: #D6CCC2;
+    background-color: #C2C5D6;
 }
 
 @media (max-width:680px) {
